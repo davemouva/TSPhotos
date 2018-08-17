@@ -47,11 +47,6 @@ table {
 	border-spacing: 0;
 }
 
-
-
-
-
-
 h1,
 h2,
 h3,
@@ -89,7 +84,8 @@ nav h4 {
   border-bottom: 1px solid black;
   width: 300px;
   padding-bottom: 2px;
-  margin: 67px auto 0;
+  margin: 40px auto 0;
+  
 }
 .mainTitle h3 {
   font-weight: 300;
@@ -103,7 +99,7 @@ nav h4 {
   flex-wrap: wrap;
   justify-content: center;
   max-width: 900px;
-  margin: 100px auto 0;
+  margin: 70px auto;
 }
 
 .gallery {
@@ -137,8 +133,15 @@ nav h4 {
     padding: 0 15px;
   }
 }
+
 @media (min-width: 1350px) {
   .photoCont {
     max-width: none;
+    margin: 100px auto 0;
+  }
+
+  .mainTitle h1 {
+    margin: 55px auto 0;
+
   }
 }
