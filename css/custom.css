@@ -136,6 +136,25 @@ nav h4 {
 
 .lightbox-portfolio {margin-bottom:20px;}
 
+/* Lightbox Modal Adjustments */
+.mfp-image-holder {
+  background-color:white;
+}
+
+.mfp-close,
+.mfp-bottom-bar > div
+
+{
+  color:#666;
+}
+
+.mfp-arrow::before {
+  color:black;
+}
+
+
+/* End Lightbox Modal Adjustments */
+
 @media (max-width: 500px) {
   nav h4 {
     padding: 0 15px;
