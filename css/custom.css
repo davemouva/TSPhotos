@@ -62,7 +62,6 @@ h4,
 h5,
 h6,
 a,
-.mfp-counter,
 .mfp-title,
 .galleryTitle
 {
@@ -168,6 +167,19 @@ button.mfp-arrow {
 
 .mfp-arrow::before {
   color:black;
+}
+
+.mfp-counter {
+  display:none;
+}
+
+.mfp-bottom-bar::after {
+  content:"5\"x7\" Digital C-print";
+  position: absolute;
+  top: 7px;
+  right: 0;
+  font-family: "Roboto", Arial, Tahoma, Verdana, Garamond, sans-serif;
+
 }
 /* End Lightbox Modal Adjustments */
 
